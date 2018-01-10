@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.springframework.samples</groupId>
     <artifactId>spring-petclinic</artifactId>
-    <version>4.3.11</version>
+    <version>4.3.12</version>
 
     <name>petclinic</name>
     <packaging>war</packaging>
@@ -398,7 +398,7 @@
     </build>
     <reporting>
         <plugins>
-            <!-- integrate maven-cobertura-plugin to project site -->
+            <!-- integrate maven-cobertura-plugin to project site xxx -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>cobertura-maven-plugin</artifactId>
@@ -443,7 +443,7 @@
                 <jdbc.driverClassName>com.mysql.jdbc.Driver</jdbc.driverClassName>
                 <jdbc.url>jdbc:mysql://localhost:3306/petclinic?useUnicode=true</jdbc.url>
                 <jdbc.username>root</jdbc.username>
-                <jdbc.password>petclinic</jdbc.password>
+                <jdbc.password></jdbc.password>
             </properties>
             <dependencies>
                 <dependency>
